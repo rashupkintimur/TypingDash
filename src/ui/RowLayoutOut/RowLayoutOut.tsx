@@ -6,7 +6,7 @@ type RowLayoutOutProps = {
   classKey: string;
 };
 
-const classPressedKey = "bg-red-500 duration-75";
+const classPressedKey = "bg-indigo-500 duration-75";
 
 export const RowLayoutOut: FC<RowLayoutOutProps> = ({
   rowLayoutOut,

@@ -12,26 +12,26 @@ const spaceLayingOut = [" "];
 
 export const Keyboard: FC<KeyboardProps> = ({ pressedKey }) => {
   return (
-    <div className="h-64 bg-slate-200 rounded-xl p-5 grid gap-3 shadow-lg">
+    <div className="h-64 bg-slate-700 rounded-xl p-5 grid gap-3 shadow-lg">
       <div className="flex gap-3">
         <RowLayoutOut
           rowLayoutOut={topLayingOut}
           pressedKey={pressedKey}
-          classKey="border-2 border-slate-700 text-slate-700 rounded w-14 flex items-center justify-center"
+          classKey="border-2 border-white text-white rounded w-14 flex items-center justify-center"
         />
       </div>
       <div className="flex gap-3 justify-center">
         <RowLayoutOut
           rowLayoutOut={middleLayingOut}
           pressedKey={pressedKey}
-          classKey="border-2 border-slate-700 text-slate-700 rounded w-14 flex items-center justify-center"
+          classKey="border-2 border-white text-white rounded w-14 flex items-center justify-center"
         />
       </div>
       <div className="flex gap-3 justify-center">
         <RowLayoutOut
           rowLayoutOut={bottomLayingOut}
           pressedKey={pressedKey}
-          classKey="border-2 border-slate-700 text-slate-700 rounded w-14 flex items-center justify-center"
+          classKey="border-2 border-white text-white rounded w-14 flex items-center justify-center"
         />
       </div>
       <div className="flex justify-center">
@@ -39,7 +39,7 @@ export const Keyboard: FC<KeyboardProps> = ({ pressedKey }) => {
           <RowLayoutOut
             rowLayoutOut={spaceLayingOut}
             pressedKey={pressedKey}
-            classKey="h-10 border-2 rounded border-slate-700"
+            classKey="h-10 border-2 rounded border-white"
           />
         </div>
       </div>
